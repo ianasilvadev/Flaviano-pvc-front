@@ -1,0 +1,101 @@
+.modalAgendamento {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+  
+  .modalDialog {
+    width: 1500px; /* Ajuste conforme necessário */
+    max-width: 700px; /* Ajuste conforme necessário */
+    height: auto; /* Ajuste conforme necessário */
+  
+  }
+  
+  .btnAgendamento {
+    background: #1F3658;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .btnAgendamento:hover {
+    background-color: #1f4988;
+  } 
+  
+  .icons {
+    display: flex; /* Usando flexbox para alinhar os ícones horizontalmente */
+    gap: 90px; /* Espaço entre os ícones */
+  }
+  
+  .icons img {
+    width: 30px;
+  }
+  
+  .agendamentoCampos {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+  }
+  
+  .agendamentoCampos .sectionTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #1F3658;
+  }
+  
+  .agendamentoCampos .divider {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+  
+  .agendamentoCampos .inputGroup {
+    margin-bottom: 20px;
+  }
+  
+  .agendamentoCampos .inputGroup label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .agendamentoCampos .inputGroup input {
+    width: 66%; /* Ajuste conforme necessário */
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+  }
+  
+  .agendamentoCampos .camposInline {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .agendamentoCampos .camposInline .inputGroup {
+    width: calc(50% - 10px); /* 50% do espaço disponível menos o espaçamento */
+  }
+  
+  .agendamentoCampos .camposInline .inputGroup input {
+    width: 97%;
+  }
+  
+  .custom-checkbox {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #8d8d8d;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+  }
+  
+  .custom-checkbox:checked {
+    background-color: #1F3658; /* Cor de fundo quando o checkbox é marcado */
+    border-color: #1F3658; /* Cor da borda ao ser marcado */
+  }
+  
+  

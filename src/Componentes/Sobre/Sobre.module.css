@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+
+.sobre {
+    font-family: 'DM Sans', sans-serif;
+    color: #767676;
+    position: relative; 
+  }
+  
+  .shapeSobre {
+    position: absolute;
+    top: 45px;
+    right: 78%;
+    width: 700px;
+    max-width: max-content;
+  }
+  
+  .imagemExmp {
+    position: absolute;
+    top: 90px;
+    right: 68%;
+    width: 33%;
+  }
+  
+  .tituloSobre {
+    font-family: 'Poppins', bold;
+    position: absolute;
+    font-size: 20px;
+    color: #1F3658;
+    top: 34px;
+    right: 52%;
+  }
+  
+  .subtituloSobre {
+    position: absolute;
+    font-family: 'DM Sans';
+    font-size: 20px;
+    color: #767676;
+    top: 80px;
+    right: 10%;
+    padding-top: 30px;
+    text-align: justify;
+  }
+  

@@ -1,0 +1,69 @@
+.contactSection {
+    padding: 50px 0;
+    background-color: #ffffff;
+    font-family: 'Poppins', bold;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contactInfo {
+    max-width: 500px;
+  }
+  
+  .contactInfo h2 {
+    font-size: 3em;
+    color: #123456;
+    
+  }
+  
+  .contactInfo p {
+    font-size: 1.2em;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  
+  .contactButton {
+    display: flex;
+    align-items: center;
+    background-color: #123456;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 40px;
+  }
+  
+  .contactButton img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .contactDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .detailItem {
+    display: flex;
+    align-items: center;
+  }
+  
+  .detailItem img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .detailItem p {
+    font-size: 1em;
+    color: #666666;
+  }
+  

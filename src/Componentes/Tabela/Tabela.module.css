@@ -1,0 +1,33 @@
+.modalAgendamento {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+  
+  .modalDialog {
+    width: 1500px; /* Ajuste conforme necessário */
+    max-width: 700px; /* Ajuste conforme necessário */
+    height: auto; /* Ajuste conforme necessário */
+ 
+  }
+  
+  .btnAgendamento {
+    background: #1F3658;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .btnAgendamento:hover {
+    background-color: #1f4988;
+  } 
+  
+  .icons {
+    display: flex; /* Usando flexbox para alinhar os ícones horizontalmente */
+    gap: 90px; /* Espaço entre os ícones */
+  }
+  
+  .icons img {
+    width: 30px;
+  }

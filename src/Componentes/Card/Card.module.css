@@ -1,0 +1,35 @@
+/* src/Card.module.css */
+
+.card {
+    width: 352px;
+    height: 352px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F3658;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #767676;
+  }
+  

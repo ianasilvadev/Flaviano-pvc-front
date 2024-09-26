@@ -1,0 +1,74 @@
+.modalAgendamento {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .modalDialog {
+    width: 1500px; /* Ajuste conforme necessário */
+    max-width: 900px; /* Ajuste conforme necessário */
+    height: auto; /* Ajuste conforme necessário */
+ 
+  }
+  
+  .btnAgendamento {
+    background: #1F3658;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .btnAgendamento:hover {
+    background-color: #1f4988;
+  }
+  
+  .agendamentoCampos {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+  }
+  
+  .agendamentoCampos .sectionTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #1F3658;
+  }
+  
+  .agendamentoCampos .divider {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+  
+  .agendamentoCampos .inputGroup {
+    margin-bottom: 20px;
+  }
+  
+  .agendamentoCampos .inputGroup label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .agendamentoCampos .inputGroup input {
+    width: 66%; /* Ajuste conforme necessário */
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+  }
+  
+  .agendamentoCampos .camposInline {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .agendamentoCampos .camposInline .inputGroup {
+    width: calc(50% - 10px); /* 50% do espaço disponível menos o espaçamento */
+  }
+  
+  .agendamentoCampos .camposInline .inputGroup input {
+    width: 97%;
+  }
+  
